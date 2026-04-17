@@ -1,7 +1,7 @@
 // src/services/api.js
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
-
+console.log('🔧 API Base URL:', API_URL);  
 // Helper: get token from localStorage
 const getToken = () => {
   const userInfo = localStorage.getItem('userInfo');
